@@ -1,0 +1,179 @@
+.section-friends {
+    background-color: #F6F6F6;
+    padding-bottom: 100px;
+  }
+  
+  .friends-title {
+    margin: 0 auto;
+    padding: 200px 0 60px 0;
+    max-width: 400px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #545454;
+  }
+  
+  .friends-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .content-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    row-gap: 30px;
+  }
+  
+  .pets-info {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+    background: #FAFAFA;
+    padding-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .pets-info:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .pets-info:hover img {
+    -webkit-filter: contrast(0.94);
+            filter: contrast(0.94);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .pets-name {
+    font-family: 'Georgia';
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 1px;
+  }
+  
+  .pets-button {
+    max-width: 187px;
+    max-height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 42px 15px 42px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #292929;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .pets-info:hover .pets-button {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .switch-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'Georgia';
+    font-weight: 400;
+    padding-top: 61px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  
+  .previos,
+  .previos-end,
+  .number,
+  .next,
+  .next-end {
+    position: relative;
+    z-index: 100;
+    max-width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    width: 100%;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .previos-item,
+  .previos-end-item,
+  .number-item,
+  .next-item,
+  .next-end-item {
+    margin: 11px auto;
+  }
+  
+  .number {
+    background: #F1CDB3;
+  }
+  
+  .number:hover,
+  .next:hover,
+  .next-end:hover {
+    background: #F1CDB3;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .previos,
+  .previos-end {
+    border: 2px solid #CDCDCD;
+    background: transparent;
+    color: #CDCDCD;
+  }
+  
+  .right-slider .arrow {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  
+  .left-slider:hover, .right-slider:hover {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  /*# sourceMappingURL=style.css.map */

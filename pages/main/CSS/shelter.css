@@ -1,0 +1,45 @@
+.shelter-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    padding: 80px 0 95px 0;
+    gap: 120px;
+  }
+  
+  .shelter-img {
+    width: 100%;
+  }
+  
+  .shelter-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+    max-width: 430px;
+    padding-top: 14px;
+  }
+  
+  .section-title {
+    max-width: 362px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: #545454;
+  }
+  
+  .shelter-description {
+    font-size: 15px;
+    color: #4C4C4C;
+  }
+  /*# sourceMappingURL=style.css.map */

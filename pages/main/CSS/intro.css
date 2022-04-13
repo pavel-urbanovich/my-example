@@ -1,0 +1,80 @@
+.intro-section {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+  }
+  
+  .intro-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .intro-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container {
+    max-height: 728px;
+  }
+  
+  .intro-title {
+    max-width: 310px;
+    font-family: 'Georgia';
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57px;
+    color: #fff;
+  }
+  
+  .intro-description {
+    max-width: 460px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 42px;
+    padding-top: 163px;
+  }
+  
+  .intro-subtitle {
+    font-size: 15px;
+    color: #CDCDCD;
+  }
+  
+  .intro-button {
+    position: relative;
+    z-index: 100;
+    width: 207px;
+    height: 52px;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 0 15px 0;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 1px;
+    color: #292929;
+    background: #F1CDB3;
+    cursor: pointer;
+  }
+  
+  .intro-button:hover {
+    background: #FDDCC4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .button {
+    display: block;
+  }
+  /*# sourceMappingURL=style.css.map */

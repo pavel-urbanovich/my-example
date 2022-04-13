@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Arial';
+    src: url("../../../assets/fonts/Arial/ArialMT.eot");
+    src: url("../../../assets/fonts/Arial/ArialMT.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/Arial/ArialMT.woff") format("woff"), url("../../../assets/fonts/Arial/ArialMT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Georgia';
+    src: url("../../../assets/fonts/Georgia/Georgia.eot");
+    src: url("../../../assets/fonts/Georgia/Georgia.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/Georgia/Georgia.woff") format("woff"), url("../../../assets/fonts/Georgia/Georgia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "ArialItalic";
+    src: url("../../../assets/fonts/ArialItalic/ArialItalic.eot");
+    src: url("../../../assets/fonts/ArialItalic/ArialItalic.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/ArialItalic/ArialItalic.woff") format("woff"), url("../../../assets/fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  html {
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  *, *:after, *:before {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    font-size: 20px;
+    color: #545454;
+    font-family: 'Arial';
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
+  
+  a {
+    cursor: pointer;
+  }

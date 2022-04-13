@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(41, 41, 41, 0.6);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: auto;
+}
+
+.popupWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 952px;
+  height: 100%;
+  max-height: 552px;
+}
+
+.popup-close {
+  margin-left: auto;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.popup-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: calc(100% - 52px);
+  background: #FAFAFA;
+  -webkit-filter: drop-shadow(0 0 2px rgba(13, 13, 13, 0.04));
+          filter: drop-shadow(0 0 2px rgba(13, 13, 13, 0.04));
+  border-radius: 9px;
+  color: #000;
+}
+
+.popup-img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.popup-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 88px;
+}
+
+.title-container {
+  font-display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.popup-title {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.popup-subtitle {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.popup-informaion {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.popup-subinformation {
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 0px;
+  font-family: 'Georgia';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.subinformation-list {
+  font-weight: 400;
+}
+
+.subinformation-item {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.subinformation-item::before {
+  color: #F1CDB3;
+  content: "·";
+  padding-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
